@@ -45,15 +45,5 @@ The dataset itself is **not included** in this repository.
 
 A small-object subset is constructed by retaining images that contain at least
 one instance whose bounding-box area ratio is smaller than **0.5%**.
-The subset is split into training, validation, and test sets following an **8:1:1** ratio.
 
-The construction process is fully reproducible using:
 
-```bash
-python make_isood_small_split.py
-Usage
-The MSMF module can be integrated into YOLOv12 using the provided configuration file:
-
-yaml
-复制代码
-yolov12-CA-DySample-MSMF.yaml
