@@ -1,0 +1,21 @@
+# datasets
+datasets/
+data/
+
+# weights / checkpoints
+*.pt
+*.pth
+*.onnx
+
+# logs / results
+runs/
+wandb/
+results/
+
+# python cache
+__pycache__/
+*.pyc
+
+# system
+.DS_Store
+Thumbs.db
